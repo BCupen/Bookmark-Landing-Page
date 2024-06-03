@@ -1,7 +1,11 @@
+import Header from "./components/Header"
+
 function App() {
 
   return (
-    <div>Bookmark Landing Page</div>
+    <div className="max-w-[1440px] font-body flex mx-auto justify-center">
+      <Header />
+    </div>
   )
 }
 
