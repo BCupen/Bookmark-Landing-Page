@@ -31,7 +31,7 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {toggle && (
-        <div className="fixed top-0 left-0 w-full h-screen md:hidden flex flex-col bg-neutral-blue-200 bg-opacity-90 py-10 px-6">
+        <div className="fixed z-10 top-0 left-0 w-full h-screen md:hidden flex flex-col bg-neutral-blue-200 bg-opacity-90 py-10 px-6">
           <div className="flex justify-between mb-8">
             <MobileLogo />
             <button onClick={() => setToggle(false)}>
