@@ -108,7 +108,7 @@ const TabDetails = ({ title, description, image }: TabDetailsProps) => {
       <TabImage image={image} />
       <div className="w-full md:w-[50%] flex flex-col items-start gap-8 p-8">
             <h3 className="w-full font-medium tracking-wide text-2xl md:text-3xl text-center md:text-left">{title}</h3>
-            <p className="text-neutral-blue-100 max-w-md leading-7">{description}</p>
+            <p className="text-neutral-blue-100 max-w-md leading-7 text-center md:text-left">{description}</p>
             <button className="bg-primary-blue px-6 py-3 rounded-md text-white font-medium">More Info</button>
       </div>
     </div>

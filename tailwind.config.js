@@ -20,6 +20,9 @@ export default {
       },
       fontFamily: {
         body: ['Rubik']
+      },
+      backgroundImage: {
+        dots: "url('./src/assets/images/bg-dots.svg')"
       }
     },
   },
