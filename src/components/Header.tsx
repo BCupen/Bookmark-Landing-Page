@@ -48,7 +48,7 @@ const Header = () => {
                 Login
             </button>
           </nav>
-          <div className="w-full flex justify-center items-end gap-8 grow">
+          <div className="w-full flex justify-center items-end gap-8 grow fill-white">
             <Facebook />
             <Twitter />
           </div>
