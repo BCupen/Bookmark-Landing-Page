@@ -25,7 +25,7 @@ const HeroImage = () => {
     return (
         <div className="w-full md:w-[50%] relative">
             <div className="w-[80%] h-[70%] bg-primary-blue absolute bottom-0 right-0 -z-10 rounded-l-full" />
-            <img src="./Bookmark-Landing-Page/images/illustration-hero.svg" alt="hero"/>
+            <img src={`${import.meta.env.BASE_URL}/images/illustration-hero.svg`} alt="hero"/>
             
         </div>
     )
