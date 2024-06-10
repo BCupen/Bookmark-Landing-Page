@@ -5,7 +5,7 @@ const Header = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <header className="w-full py-12 px-6 flex justify-between items-center">
-      <img src="./images/logo-bookmark.svg" alt="logo" className={`${toggle ? 'invisible md:visible' : 'block'}`}/>
+      <img src="./Bookmark-Landing-Page/images/logo-bookmark.svg" alt="logo" className={`${toggle ? 'invisible md:visible' : 'block'}`}/>
       {/* Desktop Nav */}
       <nav className="hidden md:flex gap-10">
         <ul className="flex items-center gap-10">

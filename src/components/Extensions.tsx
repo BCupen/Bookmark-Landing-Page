@@ -2,19 +2,19 @@ const extensions = [
   {
     name: "Chrome",
     version: 62,
-    image: "./images/logo-chrome.svg",
+    image: "./Bookmark-Landing-Page/images/logo-chrome.svg",
     position: "md:self-start",
   },
   {
     name: "Firefox",
     version: 55,
-    image: "./images/logo-firefox.svg",
+    image: "./Bookmark-Landing-Page/images/logo-firefox.svg",
     position: "md:self-center",
   },
   {
     name: "Opera",
     version: 46,
-    image: "./images/logo-opera.svg",
+    image: "./Bookmark-Landing-Page/images/logo-opera.svg",
     position: "md:self-end",
   },
 ];
