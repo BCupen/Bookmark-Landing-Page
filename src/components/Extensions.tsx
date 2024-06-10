@@ -12,7 +12,7 @@ const extensions = [
     position: "md:self-center",
   },
   {
-    name: "Chrome",
+    name: "Opera",
     version: 46,
     image: "./images/logo-opera.svg",
     position: "md:self-end",
