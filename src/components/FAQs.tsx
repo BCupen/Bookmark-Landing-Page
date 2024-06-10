@@ -37,7 +37,7 @@ interface AccordionItemProps {
 
 const FAQs = () => {
   return (
-    <div className="max-w-xl flex flex-col items-center gap-8">
+    <div className="max-w-xl flex flex-col items-center gap-8 px-6">
       <div className="flex flex-col gap-6">
         <h2 className="text-center text-neutral-blue-200 font-semibold text-3xl tracking-wider">
           Frequently Asked Questions
@@ -78,7 +78,7 @@ const AccordionItem = ({ faq, activeFaq, handleClick }: AccordionItemProps) => {
   return (
     <li className="w-full">
         <button onClick={() => handleClick(faq)} className="w-full flex items-center justify-between py-6 text-neutral-blue-200 hover:text-primary-red">
-            <h3 className="tracking-wide text-[18px]">{faq.title}</h3>
+            <h3 className="tracking-wide md:text-[18px]">{faq.title}</h3>
             <svg className={`${isOpen ? 'rotate-180 stroke-primary-red' : 'stroke-primary-blue'} transition-transform duration-300 ease-in-out`} xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="current" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
         </button>
         <div className={`grid overflow-hidden ${isOpen ? 'grid-rows-[1fr] opacity-100 pt-4 pb-8' : 'grid-rows-[0fr] opacity-0'} text-neutral-blue-100 transition-all ease-linear duration-300`}>
